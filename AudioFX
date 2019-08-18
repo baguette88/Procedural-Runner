@@ -1,0 +1,36 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+//public class AudioFX : MonoBehaviour
+//{
+//	public AudioClip death, jetPack, coinCollect;
+
+    // Update is called once per frame
+ //   void Update()
+ //   {
+///Jetpack Sound
+    
+ ///   if (Input.GetButton("Jump") && PlayerControls.jetPackFuel >= 0.001f)
+            
+    //        GetComponent<AudioSource>().PlayOneShot(jetPack, 1.0f);
+ ///Enemy contact sound    
+ //   }
+//
+  //  void OnCollisionEnter(Collision col)
+//    {
+ //       if (col.gameObject.tag) == ("Enemy")
+//
+//       GetComponent<AudioSource>().PlayOneShot(death, 1.0f);
+ //   }
+//Coin collect sound
+//   void OnTriggerEnter(Collider trig)
+//  {  
+ //      if (trig.gameObject.tag) == ("Coin")
+//
+  //      GetComponent<AudioSource>().PlayOneShot(coinCollect, 1.0f);
+//  }
+//}
+
+
+//commmented out 19,22,24,27,29,30
