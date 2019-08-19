@@ -64,22 +64,18 @@ public class ObjectSpawner : MonoBehaviour
     }
 }
 
-        //Maniopulates enemy size. Comment this out in future games *****
-        //enemy.transform.localScale = new Vector3(Random.Range(1, 5), Random.Range(1, 5));
-        //In/stantiate(enemy, new Vector3(player.transform.position.x + 30, Random.Range(1, 9), 0), Quaternion.identity); Quaternion.Euler (Random.Range (3,22)).
-        //enemySpawnTimer = Random.Range(1, 3);
+//Maniopulates enemy size. Comment this out in future games *****
+//enemy.transform.localScale = new Vector3(Random.Range(1, 5), Random.Range(1, 5));
+//In/stantiate(enemy, new Vector3(player.transform.position.x + 30, Random.Range(1, 9), 0), Quaternion.identity); Quaternion.Euler (Random.Range (3,22)).
+//enemySpawnTimer = Random.Range(1, 3);
 
 
-  //  }
+//  }
 
-  //  void SpawnPowerup
-   // {
-   //     Instantiate(powerup[(Random.Range(0, powerup.Length))], new Vector3(player.transform.position.x + 30, Random.Range(2, 8), 0), Quaternion.identity);
-        //COMMENT //X position is player, y position at 0, Z = Quaternion Identity (current rotation)
-   //     powerupSpawnTimer = Random.Range(5.0f, 7.0f);
-  //  }
-
-
-
-
+//  void SpawnPowerup
+// {
+//     Instantiate(powerup[(Random.Range(0, powerup.Length))], new Vector3(player.transform.position.x + 30, Random.Range(2, 8), 0), Quaternion.identity);
+//COMMENT //X position is player, y position at 0, Z = Quaternion Identity (current rotation)
+//     powerupSpawnTimer = Random.Range(5.0f, 7.0f);
+//  }
 

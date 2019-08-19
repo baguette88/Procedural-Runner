@@ -1,12 +1,12 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    public void LoadToScene(int sceneToLoad)
+
+    public void LoadToScene(int ScenetoLoad)
     {
-        Application.LoadLevel (sceneToLoad);
-        //OBSOLETE
+        SceneManager.LoadScene("Main");
     }
 }
